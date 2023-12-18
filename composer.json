@@ -1,0 +1,22 @@
+{
+    "name": "chemi/unit-test",
+    "authors": [
+        {
+            "name": "BolleTito335409",
+            "email": "chemichaeldekraker@gmail.com"
+        }
+    ],
+    "require": {
+		"phpunit/phpunit": "^10.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "tests/"
+		}
+	}
+}
